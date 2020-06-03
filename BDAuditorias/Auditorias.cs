@@ -164,6 +164,7 @@ namespace BDAuditorias
             int i = 0; int j = 0;
             for (; i < TotalAuditorias(); i++)
             {
+                j = 0;
                 for (; j < lstAuditorias[i].CodVulns.Count; j++)
                 {
                     if (lstAuditorias[i].CodVulns[j] == codVuln) { lstAuditorias[i].CodVulns.RemoveAt(j); }
@@ -210,6 +211,7 @@ namespace BDAuditorias
             int j = 0;
             for (; i < TotalAuditorias(); i++)
             {
+                j = 0;
                 Console.WriteLine("");
                 Console.WriteLine(" Auditoria : {0}\n {1,-12}|{2,-30}|{3,-10}", lstAuditorias[i].Codigo.ToString(),"Codigo Vuln.","Descrição","Nível");
                 if (lstAuditorias[i].CodVulns.Count == 0) { Console.WriteLine("\tNão contem vulnerabilidades"); }

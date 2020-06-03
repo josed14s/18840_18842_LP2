@@ -122,6 +122,29 @@ namespace BDAuditorias
                 Console.WriteLine(" {0}", lstColaboradores[i].ToString());
             }
         }
+        /// <summary>
+        /// Apresenta todas as auditorias realizadas por um colaboradore
+        /// </summary>
+        public static void ApresentarAuditoriasColaborador()
+        {
+            int i = 0;
+            int j = 0;
+            for (; i < TotalColaboradores(); i++)
+            {
+                j = 0;
+                Console.WriteLine("");
+                Console.WriteLine(" Colaborador : {0} {1}\n {2,-15}|{3,-20}|{4,-10}",lstColaboradores[i].Codigo.ToString(),lstColaboradores[i].Nome,"Cod. Auditoria","Data","Duração");
+                if (lstColaboradores[i].CodAudColaborador.Count == 0) { Console.WriteLine("\tNão realizou auditorias"); }
+                else
+                {
+                    for (; j < lstColaboradores[i].CodAudColaborador.Count; j++)
+                    {
+                        Auditoria aux = Auditorias.EncontraAuditoria(lstColaboradores[i].CodAudColaborador[j]);
+                        Console.WriteLine(" {0,-15}|{1,-20}|{2,-10}", aux.Codigo.ToString(), aux.Data.ToShortDateString(), aux.Duracao.ToString());
+                    }
+                }
+            }
+        }
         #endregion
 
         #region File

@@ -94,6 +94,14 @@ namespace ObjetosAuditoria
             get { return nome; }
             set { nome = value; }
         }
+        /// <summary>
+        /// Para permitir alterar o valor da lista das auditorias
+        /// </summary>
+        public List<int> CodAudColaborador
+        {
+            get { return codAudColaborador; }
+            set { codAudColaborador = value; }
+        }
         #endregion
 
         #region Functions

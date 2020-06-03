@@ -125,6 +125,29 @@ namespace BDAuditorias
                 Console.WriteLine(" {0}", lstEquipamentos[i].ToString());
             }
         }
+        /// <summary>
+        /// Apresenta todas as vulnerabilidades presentes nos equipamentos
+        /// </summary>
+        public static void ApresentarVulneabilidadesAuditoria()
+        {
+            int i = 0;
+            int j = 0;
+            for (; i < TotalEquipamentos(); i++)
+            {
+                j = 0;
+                Console.WriteLine("");
+                Console.WriteLine(" Equipamento : {0} {1}\n {2,-12}|{3,-30}|{4,-10}", lstEquipamentos[i].Marca, lstEquipamentos[i].Modelo,"Codigo Vuln.", "Descrição", "Nível");
+                if (lstEquipamentos[i].CodVulns.Count == 0) { Console.WriteLine("\tNão contem vulnerabilidades"); }
+                else
+                {
+                    for (; j < lstEquipamentos[i].CodVulns.Count; j++)
+                    {
+                        Vulnerabilidade aux = Vulnerabilidades.EncontraVulnerabilidade(lstEquipamentos[i].CodVulns[j]);
+                        Console.WriteLine(" {0,-12}|{1,-30}|{2,-10}", aux.Codigo.ToString(), aux.Descricao, aux.Nivel.ToString());
+                    }
+                }
+            }
+        }
         #endregion
 
         #region File

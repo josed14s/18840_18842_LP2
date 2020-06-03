@@ -186,7 +186,27 @@ namespace RegrasNegocio
                 throw new Exception("ERRO! " + e.Message);
             }
         }
-        
+        /// <summary>
+        /// Altera o estado do Colaborador
+        /// </summary>
+        /// <param name="vuln">vulnerabilidade a ser adicionada</param>
+        /// <returns> Devolve true/false consoante adicione ou não </returns>
+        public static bool ResolveColaborador(Colaborador col)
+        {
+            try
+            {
+                col.RemoverColaborador();
+                return true;
+            }
+            catch (VulnerabilidadeInexistenteException e)
+            {
+                throw new VulnerabilidadeInexistenteException("ERRO! " + e.Message);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("ERRO! " + e.Message);
+            }
+        }
         /// <summary>
         /// Guarda os documentos num ficheiro binario
         /// </summary>
@@ -249,19 +269,21 @@ namespace RegrasNegocio
             Console.WriteLine("\n==============================================================================================");
             Console.WriteLine("                                            MENU                                                ");
             Console.WriteLine("==============================================================================================\n");
-            Console.WriteLine("    > Quantidade de Auditorias realizadas:          {0} \n", Auditorias.TotalAuditorias());
-            Console.WriteLine("    > Auditoria com MAIS vulnerabilidades:          {0}, {1} falha(s), ({2}) \n", Auditorias.AuditoriaMaisVulnerabilidades().Codigo.ToString(),
-                                                                                                                Auditorias.AuditoriaMaisVulnerabilidades().CodVulns.Count.ToString(),
-                                                                                                                Auditorias.AuditoriaMaisVulnerabilidades().Data.ToShortDateString());
-            Console.WriteLine("    > Auditoria com MENOS vulnerabilidades:         {0}, {1} falha(s), ({2}) \n", Auditorias.AuditoriaMenosVulnerabilidades().Codigo.ToString(),
-                                                                                                                Auditorias.AuditoriaMenosVulnerabilidades().CodVulns.Count.ToString(),
-                                                                                                                Auditorias.AuditoriaMenosVulnerabilidades().Data.ToShortDateString());
-            Console.WriteLine("    > Media de vulnerabilidades das auditorias:     {0} \n\n\n", Auditorias.MediaVulnerabilidades().ToString());
+            Console.WriteLine("    > Quantidade de Auditorias realizadas:          {0} \n",                         Auditorias.TotalAuditorias());
+            Console.WriteLine("    > Auditoria com MAIS vulnerabilidades:          {0}, {1} falha(s), ({2}) \n",    Auditorias.AuditoriaMaisVulnerabilidades().Codigo.ToString(),
+                                                                                                                    Auditorias.AuditoriaMaisVulnerabilidades().CodVulns.Count.ToString(),
+                                                                                                                    Auditorias.AuditoriaMaisVulnerabilidades().Data.ToShortDateString());
+            Console.WriteLine("    > Auditoria com MENOS vulnerabilidades:         {0}, {1} falha(s), ({2}) \n",    Auditorias.AuditoriaMenosVulnerabilidades().Codigo.ToString(),
+                                                                                                                    Auditorias.AuditoriaMenosVulnerabilidades().CodVulns.Count.ToString(),
+                                                                                                                    Auditorias.AuditoriaMenosVulnerabilidades().Data.ToShortDateString());
+            Console.WriteLine("    > Media de vulnerabilidades das auditorias:     {0} \n\n\n",                     Auditorias.MediaVulnerabilidades().ToString());
             Auditorias.ApresentarAuditorias(); Console.WriteLine("");
             Auditorias.ApresentarVulneabilidadesAuditoria(); Console.WriteLine("");
             Colaboradores.ApresentarColaboradores(); Console.WriteLine("");
+            Colaboradores.ApresentarAuditoriasColaborador(); Console.WriteLine("");
             Vulnerabilidades.ApresentarVulnerabilidades(); Console.WriteLine("");
             Equipamentos.ApresentarEquipamentos(); Console.WriteLine("");
+            Equipamentos.ApresentarVulneabilidadesAuditoria(); Console.WriteLine("");
             return true;
         }
 

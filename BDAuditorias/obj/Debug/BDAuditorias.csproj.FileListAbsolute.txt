@@ -1,0 +1,11 @@
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\obj\Debug\BDAuditorias.csprojAssemblyReference.cache
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\obj\Debug\BDAuditorias.csproj.CoreCompileInputs.cache
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\bin\Debug\BDAuditorias.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\bin\Debug\BDAuditorias.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\bin\Debug\Excepcoes.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\bin\Debug\ObjetosAuditoria.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\bin\Debug\Excepcoes.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\bin\Debug\ObjetosAuditoria.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\obj\Debug\BDAuditorias.csproj.CopyComplete
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\obj\Debug\BDAuditorias.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\BDAuditorias\obj\Debug\BDAuditorias.pdb

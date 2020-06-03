@@ -1,0 +1,16 @@
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Tp1Lp2\bin\Debug\Tp1Lp2.exe.config
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Tp1Lp2\bin\Debug\Tp1Lp2.exe
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Tp1Lp2\bin\Debug\Tp1Lp2.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Tp1Lp2\obj\Debug\Tp1Lp2.csprojAssemblyReference.cache
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Tp1Lp2\obj\Debug\Tp1Lp2.exe
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Tp1Lp2\obj\Debug\Tp1Lp2.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\obj\Debug\Tp1Lp2.csproj.CoreCompileInputs.cache
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\bin\Debug\BDAuditorias.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\bin\Debug\Excepcoes.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\bin\Debug\ObjetosAuditoria.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\bin\Debug\BDAuditorias.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\bin\Debug\Excepcoes.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\bin\Debug\ObjetosAuditoria.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\obj\Debug\Tp1Lp2.csproj.CopyComplete
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\bin\Debug\RegrasNegocio.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\tp1lp2\bin\Debug\RegrasNegocio.pdb

@@ -1,0 +1,6 @@
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Excepcoes\bin\Debug\Excepcoes.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Excepcoes\bin\Debug\Excepcoes.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Excepcoes\obj\Debug\Excepcoes.csprojAssemblyReference.cache
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Excepcoes\obj\Debug\Excepcoes.csproj.CoreCompileInputs.cache
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Excepcoes\obj\Debug\Excepcoes.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\Excepcoes\obj\Debug\Excepcoes.pdb

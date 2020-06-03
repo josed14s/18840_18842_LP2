@@ -1,0 +1,13 @@
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\bin\Debug\RegrasNegocio.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\bin\Debug\RegrasNegocio.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\bin\Debug\BDAuditorias.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\bin\Debug\Excepcoes.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\bin\Debug\ObjetosAuditoria.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\bin\Debug\BDAuditorias.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\bin\Debug\Excepcoes.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\bin\Debug\ObjetosAuditoria.pdb
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\obj\Debug\RegrasNegocio.csprojAssemblyReference.cache
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\obj\Debug\RegrasNegocio.csproj.CoreCompileInputs.cache
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\obj\Debug\RegrasNegocio.csproj.CopyComplete
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\obj\Debug\RegrasNegocio.dll
+C:\Users\jose2\OneDrive\LESI\1ano 2Semestre\Linguagens de Programacao II\trabalhoLP2_18840_Fase1\RegrasNegocio\obj\Debug\RegrasNegocio.pdb

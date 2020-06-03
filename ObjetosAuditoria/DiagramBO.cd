@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ObjetosAuditoria.Auditoria">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAEAABAAABQAAAAUBAACAAQAAgAQAA=</HashCode>
+      <FileName>Auditoria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vulns" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ObjetosAuditoria.Colaborador">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ObjetosAuditoria.Colaborador.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Colaborador.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQABCAAAAQAAAAAAAAAAAEAAAIAAAAAAAAAACAEAAAg=</HashCode>
+      <FileName>Colaborador.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="audColaborador" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ObjetosAuditoria.Equipamento">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABBBAAAQAQAAAAAAAAAAAAAEAAAABACAgAAgAIAAQ=</HashCode>
+      <FileName>Equipamento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="codVuln" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ObjetosAuditoria.Vulnerabilidade">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ObjetosAuditoria.Vulnerabilidade.Level" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Vulnerabilidade.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ObjetosAuditoria.Vulnerabilidade.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Vulnerabilidade.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAFCAAADQABBAAAIQAAAAAAAAAAAAAEAAAABAAAAAg=</HashCode>
+      <FileName>Vulnerabilidade.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="codAuditoria" />
+      <Field Name="eqVuln" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="8.83" />
+</ClassDiagram>

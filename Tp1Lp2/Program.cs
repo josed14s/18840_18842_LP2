@@ -25,7 +25,7 @@ using RegrasNegocio;
 * -------------------------------------------------
 */
 
-namespace ObjetosAuditoria
+namespace Tp1Lp2
 {
     class Program
     {

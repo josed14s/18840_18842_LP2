@@ -28,7 +28,6 @@ namespace ObjetosAuditoria
     [Serializable]
     /// <summary>
     /// classe Colaborador
-    /// Responsável por tratar de Colaboradores
     /// </summary>
     public class Colaborador
     {
@@ -48,7 +47,6 @@ namespace ObjetosAuditoria
         /// <summary>
         /// Construtor por defeito
         /// </summary>
-        /// <param name="cod">codigo do colaborador</param>
         public Colaborador()
         {
             this.nome = "";
@@ -59,8 +57,7 @@ namespace ObjetosAuditoria
         /// <summary>
         /// Construtor com valores
         /// </summary>
-        /// <param name="n">Nom do colaborador</param>
-        /// <param name="cod">codigo do colaborador</param>
+        /// <param name="n">Nome do colaborador</param>
         public Colaborador(string n)
         {
             this.nome = n;
@@ -115,12 +112,10 @@ namespace ObjetosAuditoria
             return countCodigo;
         }
         /// <summary>
-        /// Para inserir auditorias nos colaboradores
+        /// Para inserir auditoria nos colaboradores
         /// </summary>
-        /// <param name="aud">Conjunto de todas as auditorias</param>
-        /// <param name="codColaborador">Codigo do colaborador</param>
-        /// <param name="cols">Colaborador onde pretende introduzir auditoria</param>
-        /// <returns> Devolve a variavel cols com a respetiva auditoria adicionada </returns>
+        /// <param name="aud">auditoria a ser inserida</param>
+        /// <returns> Devolve true/false consoante adicionou ou não a auditoria </returns>
         public bool InserirAudColaborador(Auditoria aud)
         {
             try

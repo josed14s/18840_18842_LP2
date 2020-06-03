@@ -28,7 +28,6 @@ namespace ObjetosAuditoria
     [Serializable]
     /// <summary>
     /// classe Auditoria
-    /// Responsável por tratar de Auditorias
     /// </summary>
     public class Auditoria
     {
@@ -36,8 +35,8 @@ namespace ObjetosAuditoria
         private int codigo;
         private DateTime data;
         private int duracao;                            // em minutos
-        public int codColaborador;
-        private List<int> codVulns;
+        public int codColaborador;                      // Codigo do colaborador que realizou a auditoria
+        private List<int> codVulns;                     // Conjunto de codigos de vulnerabilidades
         private static int countCodigo;                 // Contador para o codigo da Auditoria
         #endregion
 
@@ -75,7 +74,7 @@ namespace ObjetosAuditoria
 
         #region Properties
         /// <summary>
-        /// Para permitir alterar e verificar o valor do estado
+        /// Para permitir alterar e verificar o valor do codigo do Colaborador
         /// </summary>
         public int CodColaborador
         {
@@ -108,7 +107,7 @@ namespace ObjetosAuditoria
             }
         }
         /// <summary>
-        /// Para permitir verificar o numero de vulnerabilidades
+        /// Para permitir verificar o numero e codigos das vulnerabilidades
         /// </summary>
         public List<int> CodVulns
         {

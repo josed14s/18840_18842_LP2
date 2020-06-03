@@ -78,8 +78,8 @@ namespace RegrasNegocio
         /// <summary>
         /// Adiciona um equipamento a lista
         /// </summary>
-        /// <param name="col">colaborador a ser adicionado</param>
-        /// <returns> Devolve true/false consoante adicione ou não o colaborador</returns>
+        /// <param name="equip">equipamento a ser adicionado</param>
+        /// <returns> Devolve true/false consoante adicione ou não o equipamento</returns>
         public static bool InsereEquipamento(Equipamento equip)
         {
             try
@@ -120,9 +120,10 @@ namespace RegrasNegocio
             }
         }
         /// <summary>
-        /// Adiciona um colaborador a uma auditoria
+        /// Adiciona uma auditoria a um colaborador
         /// </summary>
         /// <param name="a">auditoria a ser adicionada</param>
+        /// <param name="col">colaborador</param>
         /// <returns> Devolve true/false consoante adicione ou não </returns>
         public static bool InsereColaboradorAuditoria(Auditoria a, Colaborador col)
         {
@@ -166,8 +167,8 @@ namespace RegrasNegocio
         /// <summary>
         /// Resolve vulnerabilidade
         /// </summary>
-        /// <param name="vuln">vulnerabilidade a ser adicionada</param>
-        /// <returns> Devolve true/false consoante adicione ou não </returns>
+        /// <param name="vuln">vulnerabilidade a ser resolvida</param>
+        /// <returns> Devolve true/false consoante resolveu ou não </returns>
         public static bool ResolveVulnerabilidade(Vulnerabilidade vuln)
         {
             try
@@ -189,8 +190,8 @@ namespace RegrasNegocio
         /// <summary>
         /// Altera o estado do Colaborador
         /// </summary>
-        /// <param name="vuln">vulnerabilidade a ser adicionada</param>
-        /// <returns> Devolve true/false consoante adicione ou não </returns>
+        /// <param name="col">colaborador</param>
+        /// <returns> Devolve true/false consoante resolveu ou não </returns>
         public static bool ResolveColaborador(Colaborador col)
         {
             try
@@ -208,9 +209,8 @@ namespace RegrasNegocio
             }
         }
         /// <summary>
-        /// Guarda os documentos num ficheiro binario
+        /// Guarda os dadoss num ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
         public static bool Save(string fileAuditorias, string fileVulnerabilidades, string fileColaboradores, string fileEquipamentos)
         {
             try
@@ -235,9 +235,8 @@ namespace RegrasNegocio
             }
         }
         /// <summary>
-        /// Carrega os documentos de um ficheiro binario
+        /// Carrega os dados de um ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
         public static bool Load(string fileAuditorias, string fileVulnerabilidades, string fileColaboradores, string fileEquipamentos)
         {
             try
@@ -262,9 +261,9 @@ namespace RegrasNegocio
             }
         }
         /// <summary>
-        /// Carrega os documentos de um ficheiro binario
+        /// Apresenta todos os dados relativos ao programa
         /// </summary>
-        public static bool ApresentarDados()
+        public static void ApresentarDados()
         {
             Console.WriteLine("\n==============================================================================================");
             Console.WriteLine("                                            MENU                                                ");
@@ -284,7 +283,6 @@ namespace RegrasNegocio
             Vulnerabilidades.ApresentarVulnerabilidades(); Console.WriteLine("");
             Equipamentos.ApresentarEquipamentos(); Console.WriteLine("");
             Equipamentos.ApresentarVulneabilidadesAuditoria(); Console.WriteLine("");
-            return true;
         }
 
     }

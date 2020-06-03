@@ -26,7 +26,6 @@ namespace ObjetosAuditoria
     [Serializable]
     /// <summary>
     /// classe vulnerabilidade
-    /// Responsável por tratar de vulnerabilidades
     /// </summary>
     public class Vulnerabilidade
     {
@@ -35,7 +34,7 @@ namespace ObjetosAuditoria
         private string descricao;
         private Level nivel;
         private State estado;
-        private List<int> codEqVuln;               // Equipamentos presentes numa vulnerabilidade
+        private List<int> codEqVuln;                    // Equipamentos presentes numa vulnerabilidade
         private List<int> codAuditoria;                 // Conjunto de auditorias em que a vulnerabilidade esta presente
         private static int countCodigo;                 // Contador para o codigo da vulnerabilidade
         #endregion
@@ -114,7 +113,7 @@ namespace ObjetosAuditoria
             set { codAuditoria = value; }
         }
         /// <summary>
-        /// Para permitir alterar o valor do numero de auditorias na vulnerabilidade
+        /// Para permitir alterar o valor do numero de equipamentos na vulnerabilidade
         /// </summary>
         public List<int> CodEqVuln
         {
@@ -162,8 +161,8 @@ namespace ObjetosAuditoria
         /// <summary>
         /// Para inserir auditoria numa vulnerabilidade 
         /// </summary>
-        /// <param name="codAud">Codigo da auditoria pretendido</param>
-        /// <returns> Devolve true/false consoante conseguiu adicionar o equipamento a vulnerabilidade </returns>
+        /// <param name="a">Auditoria pretendida</param>
+        /// <returns> Devolve true/false consoante conseguiu adicionar a auditoria a vulnerabilidade </returns>
         public bool InserirAudVulnerabilidade(Auditoria a)
         {
             try

@@ -123,7 +123,7 @@ namespace BDAuditorias
             }
         }
         /// <summary>
-        /// Apresenta todas as auditorias realizadas por um colaboradore
+        /// Apresenta todas as auditorias realizadas por um colaborador
         /// </summary>
         public static void ApresentarAuditoriasColaborador()
         {
@@ -149,9 +149,9 @@ namespace BDAuditorias
 
         #region File
         /// <summary>
-        /// Guarda os documentos num ficheiro binario
+        /// Guarda os dados num ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
+        /// <param name="fileColaboradores">ficheiro</param>
         public static bool Save(string fileColaboradores)
         {
             try
@@ -178,9 +178,9 @@ namespace BDAuditorias
             }
         }
         /// <summary>
-        /// Carrega os documentos de um ficheiro binario
+        /// Carrega os dados de um ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
+        /// <param name="fileColaboradores">ficheiro</param>
         public static bool Load(string fileColaboradores)
         {
             try

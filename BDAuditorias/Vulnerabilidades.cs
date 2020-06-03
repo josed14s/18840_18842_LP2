@@ -58,7 +58,7 @@ namespace BDAuditorias
         /// <summary>
         /// Verifica se já existe a vulnerabilidade
         /// </summary>
-        /// <param name="codvulnerabilidade">Codigo da vulnerabilidade</param>
+        /// <param name="codVulnerabilidade">Codigo da vulnerabilidade</param>
         /// <returns> Devolve true/false consoante exista a vulnerabilidade</returns>
         public static bool ProcuraVulnerabilidade(int codVulnerabilidade)
         {
@@ -70,10 +70,10 @@ namespace BDAuditorias
             return false;
         }
         /// <summary>
-        /// Verifica se já existe a vulnerabilidade
+        /// Verifica se já existe a vulnerabilidade e devolve-a
         /// </summary>
-        /// <param name="codvulnerabilidade">Codigo da vulnerabilidade</param>
-        /// <returns> Devolve true/false consoante exista a vulnerabilidade</returns>
+        /// <param name="codVulnerabilidade">Codigo da vulnerabilidade</param>
+        /// <returns> Devolve a vulnerabilidade desejada</returns>
         public static Vulnerabilidade EncontraVulnerabilidade(int codVulnerabilidade)
         {
             int i = 0;
@@ -125,9 +125,9 @@ namespace BDAuditorias
 
         #region File
         /// <summary>
-        /// Guarda os documentos num ficheiro binario
+        /// Guarda os dados num ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
+        /// <param name="fileVulnerabilidades">ficheiro</param>
         public static bool Save(string fileVulnerabilidades)
         {
             try
@@ -154,9 +154,9 @@ namespace BDAuditorias
             }
         }
         /// <summary>
-        /// Carrega os documentos de um ficheiro binario
+        /// Carrega os dados de um ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
+        /// <param name="fileVulnerabilidades">ficheiro</param>
         public static bool Load(string fileVulnerabilidades)
         {
             try

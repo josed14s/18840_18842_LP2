@@ -27,7 +27,6 @@ namespace ObjetosAuditoria
     [Serializable]
     /// <summary>
     /// classe equipamento
-    /// Responsável por tratar de equipamentos
     /// </summary>
     public class Equipamento
     {
@@ -37,8 +36,8 @@ namespace ObjetosAuditoria
         private string marca;
         private string modelo;
         private DateTime dataAquisicao;
-        private List<int> codVulns;              // Conjunto de vulnerabilidades de um equipamento
-        private static int countCodigo;     // Contador para o Codigo
+        private List<int> codVulns;             // Conjunto de vulnerabilidades de um equipamento
+        private static int countCodigo;         // Contador para o Codigo
         #endregion
 
         #region Constructors

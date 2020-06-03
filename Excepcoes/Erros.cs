@@ -43,6 +43,18 @@ namespace Excepcoes
         }
     }
     /// <summary>
+    /// Excepção se não existir Equipamento
+    /// </summary>
+    public class EquipamentoInexistenteException : ApplicationException
+    {
+        public EquipamentoInexistenteException() : base("Equipamento Inexistente!!") { }
+        public EquipamentoInexistenteException(string s) : base(s) { }
+        public EquipamentoInexistenteException(string s, Exception e)
+        {
+            throw new EquipamentoInexistenteException(e.Message + " - " + s);
+        }
+    }
+    /// <summary>
     /// Excepção se não conseguir inserir
     /// </summary>
     public class InsercaoException : ApplicationException

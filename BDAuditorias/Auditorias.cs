@@ -51,7 +51,6 @@ namespace BDAuditorias
         /// <summary>
         /// Para devolver a auditoria com mais vulnerabilidades
         /// </summary>
-        /// <param name="lstAud">Conjunto de todas as auditorias</param>
         /// <returns> Devolve a auditoria com mais vulnerabilidades </returns>
         public static Auditoria AuditoriaMaisVulnerabilidades()
         {
@@ -68,7 +67,6 @@ namespace BDAuditorias
         /// <summary>
         /// Para devolver a auditoria com menos vulnerabilidades
         /// </summary>
-        /// <param name="lstAud">Conjunto de todas as auditorias</param>
         /// <returns> Devolve a auditoria com menos vulnerabilidades </returns>
         public static Auditoria AuditoriaMenosVulnerabilidades()
         {
@@ -85,7 +83,6 @@ namespace BDAuditorias
         /// <summary>
         /// Para devolver a media de vulnerabilidades nas auditorias
         /// </summary>
-        /// <param name="lstAud">Conjunto de todas as auditorias</param>
         /// <returns> Devolve a media de vulnerabilidades nas auditorias </returns>
         public static float MediaVulnerabilidades()
         {
@@ -133,10 +130,10 @@ namespace BDAuditorias
             }
         }
         /// <summary>
-        /// Verifica se já existe a auditoria
+        /// Verifica se já existe a auditoria e devolve-a
         /// </summary>
         /// <param name="codAuditoria">Codigo da auditoria</param>
-        /// <returns> Devolve true/false consoante exista a auditoria</returns>
+        /// <returns> Devolve a auditoria desejada</returns>
         public static Auditoria EncontraAuditoria(int codAuditoria)
         {
             int i = 0;
@@ -172,9 +169,6 @@ namespace BDAuditorias
             }
             return true;
         }
-        #endregion
-
-        #region Verification
         /// <summary>
         /// Verifica se já existe a auditoria
         /// </summary>
@@ -229,9 +223,9 @@ namespace BDAuditorias
 
         #region File
         /// <summary>
-        /// Guarda os documentos num ficheiro binario
+        /// Guarda os dados num ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
+        /// <param name="fileAuditorias">ficheiro</param>
         public static bool Save(string fileAuditorias)
         {
             try
@@ -258,9 +252,9 @@ namespace BDAuditorias
             }
         }
         /// <summary>
-        /// Carrega os documentos de um ficheiro binario
+        /// Carrega os dados de um ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
+        /// <param name="fileAuditorias">ficheiro</param>
         public static bool Load(string fileAuditorias)
         {
             try

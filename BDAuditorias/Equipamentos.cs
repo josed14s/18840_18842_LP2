@@ -55,8 +55,8 @@ namespace BDAuditorias
         /// <summary>
         /// Adiciona um equipamento a lista
         /// </summary>
-        /// <param name="col">colaborador a ser adicionado</param>
-        /// <returns> Devolve true/false consoante adicione ou não o colaborador</returns>
+        /// <param name="equio">equipamento a ser adicionado</param>
+        /// <returns> Devolve true/false consoante adicione ou não o Equipamento</returns>
         public static bool InsereEquipamentos(Equipamento equip)
         {
             try
@@ -68,9 +68,9 @@ namespace BDAuditorias
                 }
                 return false;
             }
-            catch (ColaboradorInexistenteException e)
+            catch (EquipamentoInexistenteException e)
             {
-                throw new ColaboradorInexistenteException("ERRO! " + e.Message);
+                throw new EquipamentoInexistenteException("ERRO! " + e.Message);
             }
             catch (InsercaoException e)
             {
@@ -113,7 +113,7 @@ namespace BDAuditorias
             return true;
         }
         /// <summary>
-        /// Apresenta todos equipamentos encontrados
+        /// Apresenta todos equipamentos 
         /// </summary>
         public static void ApresentarEquipamentos()
         {
@@ -152,9 +152,9 @@ namespace BDAuditorias
 
         #region File
         /// <summary>
-        /// Guarda os documentos num ficheiro binario
+        /// Guarda os dados num ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
+        /// <param name="fileEquipamentos">ficheiro</param>
         public static bool Save(string fileEquipamentos)
         {
             try
@@ -181,9 +181,9 @@ namespace BDAuditorias
             }
         }
         /// <summary>
-        /// Carrega os documentos de um ficheiro binario
+        /// Carrega os dados de um ficheiro binario
         /// </summary>
-        /// <param name="fileName">ficheiro</param>
+        /// <param name="fileEquipamentos">ficheiro</param>
         public static bool Load(string fileEquipamentos)
         {
             try

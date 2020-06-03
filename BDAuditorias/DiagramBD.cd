@@ -3,17 +3,17 @@
   <Class Name="BDAuditorias.Auditorias">
     <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAggIAAAAAAEoAAAAAAIAAAAAAgAAAAAAAGAAAAIAA=</HashCode>
+      <HashCode>AkAggIAAAAAAEAAAAAAAIAAAAAAgAABIAAQCAAAAIAA=</HashCode>
       <FileName>Auditorias.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Field Name="lstAuditoria" />
+      <Field Name="lstAuditorias" />
     </ShowAsAssociation>
   </Class>
   <Class Name="BDAuditorias.Colaboradores">
     <Position X="9.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgIQAAAAAAIAAAIAAAAAgAAAAAAAAAAAAAAABBAA=</HashCode>
+      <HashCode>AAAAgIQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAJJAA=</HashCode>
       <FileName>Colaboradores.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -23,7 +23,7 @@
   <Class Name="BDAuditorias.Equipamentos">
     <Position X="9.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABAgIEAAAAAAYAAAAAAAAAAAAQAIAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AgBAgIEAgAAAAAAgAAAAAAAAAAQAIAAAAAAAAAAAAAA=</HashCode>
       <FileName>Equipamentos.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -33,7 +33,7 @@
   <Class Name="BDAuditorias.Vulnerabilidades">
     <Position X="3.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ABAAgIAAAAAAAIAIAAAAAAAAAAAAAAAAAAgCgAAAAAA=</HashCode>
+      <HashCode>ABAAgIAAAAAAABAIAAAAABAAAAAAAAAAAAACgAAAAAA=</HashCode>
       <FileName>Vulnerabilidades.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -42,12 +42,6 @@
   </Class>
   <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
     <Position X="6.25" Y="3.5" Width="1.5" />
-    <NestedTypes>
-      <Struct Name="System.Collections.Generic.List&lt;T&gt;.Enumerator" Collapsed="true">
-        <TypeIdentifier />
-        <Lollipop Position="0.2" />
-      </Struct>
-    </NestedTypes>
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
